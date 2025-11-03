@@ -13,7 +13,7 @@ name: Release
 
 defaults:
   run:
-    working-directory: 'ludus_wsus'
+    working-directory: '5tuk0v.ludus_wsus'
 
 jobs:
 
@@ -24,7 +24,7 @@ jobs:
       - name: Check out the codebase.
         uses: actions/checkout@v4
         with:
-          path: 'ludus_wsus'
+          path: '5tuk0v.ludus_wsus'
 
       - name: Set up Python 3.
         uses: actions/setup-python@v5
